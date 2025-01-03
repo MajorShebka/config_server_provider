@@ -19,6 +19,7 @@ import static com.home.dev.config_server_provider.util.Constants.PropertiesConfi
 @NoArgsConstructor
 public class Properties {
 
+    private String serviceName;
     private Map<String, String> nameToValue;
 
     public Map<String, String> getMap(String name) {

@@ -7,6 +7,7 @@ import lombok.Setter;
 @Setter
 public class Property {
 
+    private Long id;
     private String name;
     private String value;
     private String serviceName;
